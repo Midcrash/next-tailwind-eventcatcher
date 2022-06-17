@@ -9,6 +9,9 @@ import CreateEvent from "../components/CreateEvent";
 import Brands from "../components/Brands";
 import Blog from "../components/Blog";
 import Footer from "../components/Footer";
+import Modal from "../components/Modal";
+
+// export async function getServerSideProps() {}
 
 export default function Home() {
   return (
@@ -20,6 +23,7 @@ export default function Home() {
       <Brands />
       <Blog />
       <Footer />
+      <Modal />
     </div>
   );
 }

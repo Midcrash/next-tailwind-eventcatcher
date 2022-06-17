@@ -7,13 +7,13 @@ function Hero() {
   return (
     <main>
       <div
-        className="relative mx-auto flex content-center items-center justify-center"
+        className="relative flex items-center content-center justify-center mx-auto"
         style={{ minHeight: "75vh" }}
       >
         <div className="absolute w-full h-full px-2 bg-center bg-no-repeat bg-cover bg-texture">
-          <div className="container mx-auto flex h-full">
+          <div className="container flex h-full mx-auto">
             <div className="relative basis-2/3">
-              <span className="absolute w-full h-5/6 bottom-0 mb-14 ">
+              <span className="absolute bottom-0 w-full mb-20 h-5/6 ">
                 <Image
                   src={img}
                   alt="Picture of BTS"
@@ -23,24 +23,24 @@ function Hero() {
                 />
               </span>
             </div>
-            <div className="right justify-center items-center flex h-full basis-1/3">
+            <div className="flex items-center justify-center h-full right basis-1/3">
               <span className="flex flex-col text-white">
-                <h1 className="text-4xl font-bold pb-2">SBS MTV The Kpop </h1>
-                <h1 className="text-4xl font-bold pt-2">Show Ticket Package</h1>
+                <h1 className="pb-2 text-4xl font-bold">SBS MTV The Kpop </h1>
+                <h1 className="pt-2 text-4xl font-bold">Show Ticket Package</h1>
                 <br></br>
-                <p className="text-lg font-light">
+                <p className="w-4/5 text-lg font-light">
                   Look no further! Our SBS The Show tickets are the simplest way
                   for you to experience a live Kpop recording.
                 </p>
                 <br></br>
-                <div className="buttons flex ">
+                <div className="flex buttons ">
                   <a
                     href="#"
-                    className="rounded-full px-10 py-3 border-2 mr-2 border-red-600 bg-red-600"
+                    className="px-10 py-3 mr-2 bg-red-600 border-2 border-red-600 rounded-full"
                   >
                     Get Ticket
                   </a>
-                  <a className="rounded-full px-10 py-3 border-2 ml-2">
+                  <a className="px-10 py-3 ml-2 border-2 rounded-full">
                     Learn More
                   </a>
                 </div>
@@ -49,7 +49,7 @@ function Hero() {
           </div>
         </div>
         <div
-          className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+          className="absolute bottom-0 left-0 right-0 top-auto w-full overflow-hidden pointer-events-none"
           style={{ height: "70px" }}
         >
           <svg

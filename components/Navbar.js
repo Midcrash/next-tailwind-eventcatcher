@@ -11,11 +11,11 @@ function Navbar(props) {
       }
     >
       <div className="container px-4 mx-auto">
-        <div className="w-full relative flex items-center text-white">
+        <div className="relative flex items-center w-full text-white">
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-12 w-12"
+              className="w-12 h-12"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -34,8 +34,8 @@ function Navbar(props) {
             <p className="">atcher</p>
           </a>
 
-          <div className="lg:flex flex-grow items-center bg-transparent lg:shadow-none text-l font-medium">
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <div className="items-center flex-grow font-medium bg-transparent lg:flex lg:shadow-none text-l">
+            <ul className="flex flex-col list-none lg:flex-row lg:ml-auto">
               <li className="flex items-center">
                 <a className={"px-6 py-4 lg:py-2 flex items-center"} href="#">
                   Schedule
@@ -59,7 +59,7 @@ function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className={
-                    "mx-5 px-8 py-4 lg:py-2 flex items-center outline-2 outline rounded-full"
+                    "login-button mx-5 px-8 py-4 lg:py-2 flex items-center border-2 rounded-full hover:bg-white hover:text-purple-700 active:bg-red-600 active:text-white active:border-red-600"
                   }
                   href="#"
                 >
